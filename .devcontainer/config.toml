@@ -4,4 +4,23 @@
 # Only for Snow CLI, can override connection details as follows
 #export SNOWFLAKE_CONNECTIONS_DEFAULT_PASSWORD=""
 
-default_connection_name = "default"
+[default]
+account = "tr28614.us-east4.gcp"
+user = "SAHILK77"
+password = "Bulbul@123"
+role = "HOL_ROLE"
+warehouse = "HOL_WH"
+database = "HOL_DB"
+schema = "RAW_POS"
+
+[connections.tr28614.us-east4.gcp]
+account = "tr28614.us-east4.gcp"
+user = "SAHILK77"
+password = "Bulbul@123"
+role = "HOL_ROLE"
+warehouse = "HOL_WH"
+database = "HOL_DB"
+schema = "RAW_POS"
+
+
+

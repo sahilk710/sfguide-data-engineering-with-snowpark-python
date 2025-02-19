@@ -1,0 +1,8 @@
+[default]
+account = "tr28614.us-east4.gcp"
+user = "SAHILK77"
+password = "Bulbul@123"
+role = "HOL_ROLE"
+warehouse = "HOL_WH"
+database = "HOL_DB"
+schema = "RAW_POS" 
