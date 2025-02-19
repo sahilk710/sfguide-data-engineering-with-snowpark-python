@@ -1,3 +1,4 @@
+
 name: Deploy Snowpark Apps
 
 # Controls when the action will run. 
@@ -35,3 +36,4 @@ jobs:
           SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
           SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
         run: python deploy_snowpark_apps.py $GITHUB_WORKSPACE
+
